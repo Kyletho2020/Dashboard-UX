@@ -4,7 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dashboard-ux</title>
+    <title>NovaUX | Premium Dashboards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              indigo: {
+                500: '#6366f1',
+                600: '#4f46e5',
+                700: '#4338ca',
+              },
+              slate: {
+                900: '#0f172a',
+              }
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
